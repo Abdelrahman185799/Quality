@@ -17,4 +17,4 @@ jobs:
         with:
           python-version: 3.10.1
       - name: Testing
-        run: pytest
+        run: unittest
