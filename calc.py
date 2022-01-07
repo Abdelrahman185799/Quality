@@ -39,7 +39,7 @@ while should_continue:
     if operation_symbol == "-":
         answer = subtract(num1, num2)
     if operation_symbol == "*":
-        answer = multiply(num1, num1)
+        answer = multiply(num1, num2)
     if operation_symbol == "/":
         answer = divide(num1, num2)
     print(f"{num1} {operation_symbol} {num2} = {answer}")
